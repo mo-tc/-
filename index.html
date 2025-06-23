@@ -8,9 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600;700&display=swap" rel="stylesheet"/>
   <style>
     :root {
-      --primary: #17acac;
-      --primary-light: #00b600;
-      --secondary: #FD79A8;
+      --primary:#00ffff ;
+      --primary-light:#0056b3 ;
+      --secondary: #ff0059;
       --dark: #2D3436;
       --light: #F5F6FA;
       --white: #FFFFFF;
@@ -204,6 +204,52 @@
         </select>
       </div>
     </div>
+    
+<div class="form-group">
+  <label for="education">المستوى التعليمي</label>
+  <div class="input-icon">
+    <i class="fas fa-graduation-cap"></i>
+    <select id="education" name="المستوى التعليمي" required>
+      <option value="" disabled selected>اختر الصف الدراسي</option>
+      <option value="ابتدائي">المرحلة الابتدائية</option>
+      <option value="اعدادي">المرحلة الإعدادية</option>
+      <option value="ثانوي">المرحلة الثانوية</option>
+    </select>
+  </div>
+</div>
+
+    <div class="form-group">
+      <label for="nationality">الجنسية</label>
+      <div class="input-icon">
+        <i class="fas fa-globe"></i>
+        <select id="nationality" name="الجنسية" required>
+          <option value="" disabled selected>اختر الجنسية</option>
+          <option value="مصر">مصر</option>
+          <option value="السعودية">السعودية</option>
+          <option value="الإمارات">الإمارات</option>
+          <option value="قطر">قطر</option>
+          <option value="الكويت">الكويت</option>
+          <option value="البحرين">البحرين</option>
+          <option value="عمان">عمان</option>
+          <option value="العراق">العراق</option>
+          <option value="الأردن">الأردن</option>
+          <option value="فلسطين">فلسطين</option>
+          <option value="لبنان">لبنان</option>
+          <option value="سوريا">سوريا</option>
+          <option value="اليمن">اليمن</option>
+          <option value="ليبيا">ليبيا</option>
+          <option value="تونس">تونس</option>
+          <option value="الجزائر">الجزائر</option>
+          <option value="المغرب">المغرب</option>
+          <option value="السودان">السودان</option>
+          <option value="الصومال">الصومال</option>
+          <option value="موريتانيا">موريتانيا</option>
+          <option value="جيبوتي">جيبوتي</option>
+          <option value="جزر القمر">جزر القمر</option>
+          <option value="أخرى">أخرى</option>
+        </select>
+      </div>
+    </div>
 
     <div class="form-group">
       <label for="phone">هاتف الطالب</label>
@@ -225,7 +271,7 @@
       <label for="email">البريد الإلكتروني</label>
       <div class="input-icon">
         <i class="fas fa-envelope"></i>
-        <input type="email" id="email" name="الايميل" required placeholder="example@email.com">
+        <input type="email" id="email" name="الايميل" required placeholder="example@gmail.com">
       </div>
     </div>
 
@@ -240,6 +286,53 @@
         </select>
       </div>
     </div>
+    
+<div class="form-group">
+  <label for="experience">هل لديك خبرة في البرمجة؟</label>
+  <div class="input-icon">
+    <i class="fas fa-code"></i>
+    <select id="experience" name="خبرة برمجية" required>
+      <option value="" disabled selected>اختر مستوى الخبرة</option>
+      <option value="none">لا أمتلك أي خبرة</option>
+      <option value="beginner">مبتدئ (أقل من سنة)</option>
+      <option value="intermediate">متوسط (1-3 سنوات)</option>
+      <option value="advanced">متقدم (أكثر من 3 سنوات)</option>
+    </select>
+  </div>
+</div>
+
+    <div class="form-group">
+      <label for="discovery">عرفت Mo Tc منين ؟</label>
+      <div class="input-icon">
+        <i class="fas fa-info-circle"></i>
+        <select id="discovery" name="عرفت Mo Tc منين ؟<" required>
+          <option value="" disabled selected>اختر طريقة التعرف</option>
+          <option value="فيسبوك">فيسبوك</option>
+          <option value="انستجرام">انستجرام</option>
+          <option value="تيك توك">تيك توك</option>
+          <option value="يوتيوب">يوتيوب</option>
+          <option value="صديق">صديق</option>
+          <option value="إعلان">إعلان</option>
+          <option value="بحث على الإنترنت">بحث على الإنترنت</option>
+          <option value="أخرى">أخرى</option>
+        </select>
+      </div>
+    </div>
+
+<div class="form-group">
+  <label for="payment">وسيلة الدفع</label>
+  <div class="input-icon">
+    <i class="fas fa-credit-card"></i>
+    <select id="payment" name="وسيلة الدفع" required>
+      <option value="" disabled selected>اختر وسيلة الدفع</option>
+      <option value="vodafone">فودافون كاش</option>
+      <option value="instapay">إنستاباي</option>
+      <option value="etisalat">اتصالات كاش</option>
+      <option value="bank">تحويل بنكي</option>
+         <option value="bank">الشهر الأول مجاني (تجريبي)</option>
+    </select>
+  </div>
+</div>
 
     <div class="form-group">
       <label for="schedule">المواعيد المتاحة</label>
