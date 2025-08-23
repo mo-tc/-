@@ -24,7 +24,7 @@
 
     form {
       border: solid 2px rgba(225, 225, 225,0.2);
-      width:90%;
+      width:100%;
       max-width:800px;
       padding:25px;
       border-radius:20px;
@@ -177,6 +177,37 @@
     .terms a:hover {
       text-decoration:underline;
     }
+    @media (max-width: 480px) {
+  .fancy-header .icon-box img {
+    max-width: 250px;
+  }
+  .fancy-header h1 {
+    font-size:1.2rem;
+  }
+  .fancy-header p {
+    font-size:0.9rem;
+  }
+  input, select, textarea {
+    padding:10px 12px 10px 35px;
+    font-size:0.9rem;
+  }
+  .submit-btn {
+    font-size:0.95rem;
+    padding:10px 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .fancy-header .icon-box img {
+    max-width: 200px;
+  }
+  .fancy-header h1 {
+    font-size:1rem;
+  }
+  .fancy-header p {
+    font-size:0.85rem;
+  }
+}
   </style>
 </head>
 <body>
