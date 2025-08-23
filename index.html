@@ -37,38 +37,24 @@
     .fancy-header {
       position: relative;
       background:rgba(255,255,255,0.15);
-      backdrop-filter:blur(12px);
+      backdrop-filter:blur(10px);
       border-radius:300px;
       padding:20px;
       text-align:center;
       border-bottom:2px solid rgba(255,255,255,0.2);
       margin-bottom:20px;
+      box-shadow: #0000002f 2px 3px 4px ;
     }
 
+
     .fancy-header h1, .fancy-header p {
-      color:#646464;
-      text-shadow:0 1px 3px rgba(0,0,0,0.5);
+      color:#000000;
+      text-shadow:4px 2px 4px rgba(0,0,0,0.5);
       position: relative;
       z-index:2;
     }
 
-    .fancy-header .icon-box {
-      position:absolute;
-      top:68%;
-      left:70%;
-      animation:bounce 60s infinite;
-      z-index:1;
-    }
-
-    .fancy-header .icon-box img {
-      width:130px;
-      height:130px;
-    }
-
-    @keyframes bounce {
-      0%,100%{transform:translate(-50%, -50%) translateY(0);}
-      50%{transform:translate(-50%, -50%) translateY(-10px);}
-    }
+    
 
     .form-group {
       margin-bottom:15px;
@@ -107,16 +93,18 @@
 
     input, select, textarea {
       width:100%;
-      padding:20px 15px 20px 55px;
+      padding:12px 15px 12px 45px;
       border: none;
       border-radius:12px;
       font-size:1rem;
       background:rgba(255,255,255,0.15);
-      backdrop-filter:blur(50px);
+      backdrop-filter:blur(15px);
       -webkit-backdrop-filter:blur(10px);
       color:#7e7e7e;
       outline:none;
       transition:0.3s;
+      box-shadow: #0000002f 2px 3px 4px ;
+
     }
 
     input::placeholder, textarea::placeholder {
@@ -177,6 +165,7 @@
     .terms a:hover {
       text-decoration:underline;
     }
+
   </style>
 </head>
 <body>
@@ -185,10 +174,8 @@
     <input type="hidden" name="access_key" value="fd3cd370-e0b6-4478-b9f6-b7a36726403b">
 
     <div class="fancy-header">
-      <div class="icon-box">
-        <img src="Mo Tc-Photoroom.png" alt="شعار Mo Tc">
-      </div>
-      <h3>نموذج تسجيل كورس البرمجة </h3>
+      <h1>Mo Tc Academy</h1>
+      <p>نموذج تسجيل كورس البرمجة </p>
     </div>
 
     <div class="form-content">
